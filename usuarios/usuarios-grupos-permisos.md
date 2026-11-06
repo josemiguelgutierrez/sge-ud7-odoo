@@ -14,7 +14,7 @@ He creado los usuarios de TintaViva para que cada uno solo pueda hacer lo que ne
 |---|---|---|---|---|---|---|
 | Marta García Sánchez | marta.garcia@tintaviva.es | Comercial | Interno | Ventas: solo sus documentos. Productos: ver. Contacto: no. Contabilidad: no. Inventario: no | TintaViva / Comercial junior | Ella solo hace presupuestos y solo tiene que ver los suyos. No necesita ver la contabilidad ni el almacén |
 | José Miguel Gutiérrez López | josemiguel.gutierrez@tintaviva.es | Responsable de ventas | Interno | Ventas: administrador. Contacto: creación. Exportar: sí. Inventario: usuario. Contabilidad: no | Ninguno | Yo veo todos los presupuestos, confirmo los pedidos y valido las entregas en el almacén. No facturo |
-| Carmen Díaz Vela | carmen.diaz@tintaviva.es | Administración y facturación | Interno | Contabilidad: facturación. Ventas: no. Inventario: no. Contacto: no | TintaViva / Facturación de pedidos | Ella hace las facturas y registra los pagos, pero no se encarga de las ventas |
+| Carmen Ruiz Moreno | carmen.ruiz@tintaviva.es | Administración y facturación | Interno | Contabilidad: facturación. Ventas: no. Inventario: no. Contacto: no | TintaViva / Facturación de pedidos | Ella hace las facturas y registra los pagos, pero no se encarga de las ventas |
 | Lucía García Montes | lucia.garcia@correo.es | Clienta | Portal | Ninguna app | Ninguno | Es clienta, así que solo puede ver sus cosas desde el portal |
 
 El administrador solo lo he usado para configurar Odoo. Ningún paso de la venta lo hago con él.
@@ -36,8 +36,8 @@ Lo hice para que la comercial pueda trabajar con los clientes, crearlos y editar
 Cuando probé con Carmen me di cuenta de que no podía abrir los pedidos de venta, y entonces no podía hacer la factura desde el pedido. No quería darle todo Ventas porque ella no lleva las ventas, así que hice este grupo para que solo pueda ver los pedidos y facturarlos.
 
 - **Hereda de:** Contabilidad / Facturación. Así puede hacer facturas y registrar pagos.
-- **Menús:** Ventas / A facturar y Ventas / A facturar / Pedidos a facturar. Es el único camino que ve dentro de Ventas.
-- **Usuaria:** Carmen Díaz Vela.
+- **Menús:** Ventas / A facturar y Ventas / A facturar / Pedidos a facturar. Es lo único que ve dentro de Ventas.
+- **Usuaria:** Carmen Ruiz Moreno.
 
 | Derecho de acceso | Modelo | Leer | Escribir | Crear | Borrar |
 |---|---|---|---|---|---|
