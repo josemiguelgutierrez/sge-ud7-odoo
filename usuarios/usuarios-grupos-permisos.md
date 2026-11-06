@@ -36,7 +36,7 @@ Lo hice para que la comercial pueda trabajar con los clientes, crearlos y editar
 Cuando probé con Carmen me di cuenta de que no podía abrir los pedidos de venta, y entonces no podía hacer la factura desde el pedido. No quería darle todo Ventas porque ella no lleva las ventas, así que hice este grupo para que solo pueda ver los pedidos y facturarlos.
 
 - **Hereda de:** Contabilidad / Facturación. Así puede hacer facturas y registrar pagos.
-- **Menús:** Ventas, Ventas / A facturar y Ventas / A facturar / Pedidos a facturar. Es el único camino que ve dentro de Ventas.
+- **Menús:** Ventas / A facturar y Ventas / A facturar / Pedidos a facturar. Es el único camino que ve dentro de Ventas.
 - **Usuaria:** Carmen Díaz Vela.
 
 | Derecho de acceso | Modelo | Leer | Escribir | Crear | Borrar |
